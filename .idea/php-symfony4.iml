@@ -7,9 +7,12 @@
       <sourceFolder url="file://$MODULE_DIR$/myproject/tests" isTestSource="true" packagePrefix="App\Tests\" />
       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/myproject/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/myproject/vendor/doctrine/annotations" />
+      <excludeFolder url="file://$MODULE_DIR$/myproject/vendor/doctrine/lexer" />
       <excludeFolder url="file://$MODULE_DIR$/myproject/vendor/psr/cache" />
       <excludeFolder url="file://$MODULE_DIR$/myproject/vendor/psr/container" />
       <excludeFolder url="file://$MODULE_DIR$/myproject/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/myproject/vendor/sensio/framework-extra-bundle" />
       <excludeFolder url="file://$MODULE_DIR$/myproject/vendor/symfony/cache" />
       <excludeFolder url="file://$MODULE_DIR$/myproject/vendor/symfony/cache-contracts" />
       <excludeFolder url="file://$MODULE_DIR$/myproject/vendor/symfony/config" />
