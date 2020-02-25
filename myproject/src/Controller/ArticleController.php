@@ -1,16 +1,16 @@
 <?php
 
-
 namespace App\Controller;
 
 
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
-class ArticleController
+class ArticleController extends AbstractController
 {
     /**
-     * @Route("/")
+     * @Route("/home")
      */
     public function homepage()
     {
@@ -22,7 +22,13 @@ class ArticleController
      */
     public function show($titre)
     {
-        return new Response("Mon article ayant pour titre ".$titre." s'affiche");
+        $comments = ["Commentaire1", "Commentaire2", "Commentaire3"];
+
+        return $this->render('article/show.html.twig',[
+            "titre"=>$titre,
+            "maVariable"=>"test",
+            "comments"=>$comments,
+        ]);
     }
 
 }

@@ -1,0 +1,35 @@
+{# Héritage :
+On met entre guillemets simples le nom du template qu'on veut inclure ds le fichier
+et on déclare un block body + un endblock à la fin pour que le template soit injecté ds le fichier de base:
+on redéfinit les blocs #}
+{% extends 'base.html.twig' %}
+
+{# Mon commentaire #}
+
+{# Renommer la balise 'title' (de façon dynamique) : #}
+{% block title %}
+    Lire : {{ titre }}
+{% endblock %}
+
+{% block body %}
+
+    {{ titre }}
+
+    {#Comment va contenir chaque entrée de notre tableau;
+    comments correspond à la variable $comments;
+    comment est une variable qu'on crée au moment du for...in et qu'on aurait pu nommer comme on veut#}
+
+    {% for comment in comments %}
+        {# On met 'comment' entre {{  }} pour ne pas que soit simplement écrit 'comment' #}
+        <p>{{ comment }}</p>
+    {% endfor %}
+
+    {# Connaître la longueur d'un tableau :
+    filtre, référence à la variable et séparateur#}
+    Il y a {{ comments|length }} commentaires.
+
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid autem cupiditate dignissimos doloremque, facere ipsum molestiae mollitia non reiciendis repellat rerum soluta, sunt totam.
+
+    {{ maVariable }}
+
+{% endblock %}

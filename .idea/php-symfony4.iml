@@ -13,6 +13,7 @@
       <excludeFolder url="file://$MODULE_DIR$/myproject/vendor/psr/container" />
       <excludeFolder url="file://$MODULE_DIR$/myproject/vendor/psr/log" />
       <excludeFolder url="file://$MODULE_DIR$/myproject/vendor/sensio/framework-extra-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/myproject/vendor/symfony/asset" />
       <excludeFolder url="file://$MODULE_DIR$/myproject/vendor/symfony/cache" />
       <excludeFolder url="file://$MODULE_DIR$/myproject/vendor/symfony/cache-contracts" />
       <excludeFolder url="file://$MODULE_DIR$/myproject/vendor/symfony/config" />
@@ -37,10 +38,16 @@
       <excludeFolder url="file://$MODULE_DIR$/myproject/vendor/symfony/process" />
       <excludeFolder url="file://$MODULE_DIR$/myproject/vendor/symfony/routing" />
       <excludeFolder url="file://$MODULE_DIR$/myproject/vendor/symfony/service-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/myproject/vendor/symfony/translation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/myproject/vendor/symfony/twig-bridge" />
+      <excludeFolder url="file://$MODULE_DIR$/myproject/vendor/symfony/twig-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/myproject/vendor/symfony/twig-pack" />
       <excludeFolder url="file://$MODULE_DIR$/myproject/vendor/symfony/var-dumper" />
       <excludeFolder url="file://$MODULE_DIR$/myproject/vendor/symfony/var-exporter" />
       <excludeFolder url="file://$MODULE_DIR$/myproject/vendor/symfony/web-server-bundle" />
       <excludeFolder url="file://$MODULE_DIR$/myproject/vendor/symfony/yaml" />
+      <excludeFolder url="file://$MODULE_DIR$/myproject/vendor/twig/extra-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/myproject/vendor/twig/twig" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
